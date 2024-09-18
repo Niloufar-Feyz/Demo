@@ -29,7 +29,7 @@ body {
     margin: 10px;
 }
 
-#game a {
+.one a {
     color: #ed7f2a;
     text-decoration: none;
     margin: 10px;
@@ -109,7 +109,7 @@ ul {
 #menu ul li a:hover,
 #menu ul li a.active,
 #signin:hover,
-#game:hover {
+.one:hover {
     font-size: 25px;
     font-weight: bold;
     color: #b63ce2;

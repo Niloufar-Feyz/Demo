@@ -5,16 +5,20 @@
         <meta http-equiv="x-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
         <title>NILOUFAR FEYZ</title>
-        <link rel="stylesheet" href="style.css" />
+        <!--<link rel="stylesheet" href="style.css" />-->
         <link rel="stylesheet" href="css/bootstrap.min.css" />
     </head>
-    <body id="fuck">
+    <body id="fuck" class="bg-black">
         <div id="container" class="bg-black">
-            <div id="header">
-                <div id="brand">
-                    <h1 class="display-3 font-monospace fst-italic fw-semibold"><a href="#">NILOUFAR FEYZ</a></h1>
+            <div id="header" class="bg-black position-relative">
+                <div id="brand" class="bg-black">
+                    <h1 class="display-2 fst-italic fw-normal font-monospace m-5">
+                        <a href="#" class="text-decoration-none" style="color: #bb6eed">NILOUFAR FEYZ</a>
+                    </h1>
                 </div>
-
+                <div class="float-end fw-medium fs-4 position-absolute top-50 end-0 p-4 m-1 overflow-hidden">
+                    <a href="index2.html" class="text-decoration-none" style="color: #61c7eb">Sign In</a>
+                </div>
                 <!--
                 <div id="searchBox">
                     <form method="get">
@@ -26,32 +30,45 @@
                 -->
 
                 <div class="clear"></div>
-                <div id="signin" class="one fst-italic">
-                    <a href="index2.html">Sign In</a>
-                </div>
+
                 <!--<div id="game" class="one"><a href="game.html">Let's play a game!</a></div>-->
             </div>
 
-            <div
-                id="menu"
-                class="alert text-white bg-opacity-50 border-dark text-opacity-75 fst-italic"
-                style="background-color: darkblue">
-                <ul class="alert">
-                    <li><a href="#" class="active alert alert-link text-decoration-none">Home</a></li>
-                    <li>
+            <div>
+                <ul class="list-group list-group-horizontal">
+                    <li
+                        class="list-group-item list-group-item-action border-0 border-end fst-italic fs-6 fw-medium active"
+                        style="background-color: #4055a0; color: #f6cf9a">
+                        <a href="#" class="active alert alert-link text-decoration-none">Home</a>
+                    </li>
+                    <li
+                        class="list-group-item list-group-item-action border-0 border-end fst-italic fs-6 fw-medium"
+                        style="background-color: #4055a0; color: #f6cf9a">
                         <a href="background.html" class="alert alert-link text-decoration-none">My Background</a>
                     </li>
-                    <li>
+                    <li
+                        class="list-group-item list-group-item-action border-0 border-end fst-italic fs-6 fw-medium"
+                        style="background-color: #4055a0; color: #f6cf9a">
                         <a href="honors.html" class="alert alert-link text-decoration-none">Honors & awards</a>
                     </li>
-                    <li>
-                        <a href="pastime.html" class="alert alert-link text-decoration-none">Passtime</a>
+                    <li
+                        class="list-group-item list-group-item-action border-0 border-end fst-italic fs-6 fw-medium"
+                        style="background-color: #4055a0; color: #f6cf9a">
+                        <a href="pastime.html" class="alert alert-link text-decoration-none">Pastime</a>
                     </li>
-                    <li><a href="contact.html" class="alert alert-link text-decoration-none">Contact</a></li>
+                    <li
+                        class="list-group-item list-group-item-action border-0 fst-italic fs-6 fw-medium"
+                        style="background-color: #4055a0; color: #f6cf9a">
+                        <a href="contact.html" class="alert alert-link text-decoration-none">Contact</a>
+                    </li>
                 </ul>
             </div>
             <div class="card bg-black m-3">
-                <div id="introductionSlide" class="carousel slide" style="height: 450px" data-bs-ride="carousel">
+                <div
+                    id="introductionSlide"
+                    class="carousel slide carousel-fade"
+                    style="height: 450px"
+                    data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="image/NASA/13.png" class="d-block w-100" style="height: 450px" />
@@ -164,24 +181,68 @@
                             </div>
                         </div>
                     </div>
+                    <div class="carousel-indicators">
+                        <button
+                            type="button"
+                            data-bs-target="#introductionSlide"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="slide 1"></button>
+                        <button
+                            type="button"
+                            data-bs-target="#introductionSlide"
+                            data-bs-slide-to="1"
+                            aria-current="true"
+                            aria-label="slide 2"></button>
+                        <button
+                            type="button"
+                            data-bs-target="#introductionSlide"
+                            data-bs-slide-to="2"
+                            aria-current="true"
+                            aria-label="slide 3"></button>
+                        <button
+                            type="button"
+                            data-bs-target="#introductionSlide"
+                            data-bs-slide-to="3"
+                            aria-current="true"
+                            aria-label="slide 4"></button>
+                        <button
+                            type="button"
+                            data-bs-target="#introductionSlide"
+                            data-bs-slide-to="4"
+                            aria-current="true"
+                            aria-label="slide 5"></button>
+                        <button
+                            type="button"
+                            data-bs-target="#introductionSlide"
+                            data-bs-slide-to="5"
+                            aria-current="true"
+                            aria-label="slide 6"></button>
+                        <button
+                            type="button"
+                            data-bs-target="#introductionSlide"
+                            data-bs-slide-to="6"
+                            aria-current="true"
+                            aria-label="slide 7"></button>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#introductionSlide"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#introductionSlide"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span
+                        ><span class="carousel-control-next visually-hidden">Next</span>
+                    </button>
                 </div>
-
-                <button
-                    class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#introductionSlide"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                    class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#introductionSlide"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span
-                    ><span class="carousel-control-next visually-hidden">Next</span>
-                </button>
             </div>
             <!--
             <div id="introduction" class="col-md-8 col-sm-6 col-xs-3 text-bg-dark">
@@ -239,7 +300,9 @@
             <div class="clear"></div>
 
             <footer class="footer">
-                <div>
+                <div
+                    class="footer d-flex justify-content-center fw-medium fs-6 fst-italic"
+                    style="height: 45px; background: linear-gradient(#363479, #554ff6); color: #cfcbf0">
                     <p>Email: nilouton@gmail.com</p>
                 </div>
             </footer>
@@ -247,6 +310,6 @@
         <script src="jquery.min.js"></script>
         <script src="jquery-ui.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="script.js"></script>
+        <!--<script src="script.js"></script>-->
     </body>
 </html>
